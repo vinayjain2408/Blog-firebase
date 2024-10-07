@@ -35,7 +35,7 @@ export default function Home() {
   }, [user, userSession, router]);
 
   const handleCardClick = (postId) => {
-    router.push(`/posts/${postId}`);
+    router.push(`/blog-detail/${postId}`);
   };
 
   const handleFormChange = (e) => {
